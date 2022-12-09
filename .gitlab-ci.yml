@@ -20,7 +20,7 @@ build:
     - pnpm config set store-dir .pnpm-store
   script:
     - pnpm install --frozen-lockfile # install dependencies (the only reason we don[])
-    - pnm run lint
+    - pnpm run lint
     - pnpm run build
   cache:
     key:
