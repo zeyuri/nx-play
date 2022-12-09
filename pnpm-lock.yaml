@@ -19,13 +19,13 @@ importers:
       '@types/node': ^18.11.9
       '@types/react': ^18.0.25
       '@types/react-dom': ^18.0.9
-      eslint-config-custom: workspace:0.0.0
+      eslint-config-custom: workspace:*
       next: ^13.0.4
       react: ^18.2.0
       react-dom: ^18.2.0
-      tsconfig: workspace:0.0.0
+      tsconfig: workspace:*
       typescript: ^4.9.3
-      ui: workspace:0.0.0
+      ui: workspace:*
     dependencies:
       next: 13.0.4_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -44,13 +44,13 @@ importers:
       '@types/node': ^18.11.9
       '@types/react': ^18.0.25
       '@types/react-dom': ^18.0.9
-      eslint-config-custom: workspace:0.0.0
+      eslint-config-custom: workspace:*
       next: ^13.0.4
       react: ^18.2.0
       react-dom: ^18.2.0
-      tsconfig: workspace:0.0.0
+      tsconfig: workspace:*
       typescript: ^4.9.3
-      ui: workspace:0.0.0
+      ui: workspace:*
     dependencies:
       next: 13.0.4_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -95,9 +95,9 @@ importers:
       '@types/react': ^18.0.25
       '@types/react-dom': ^18.0.9
       eslint: ^8.28.0
-      eslint-config-custom: workspace:0.0.0
+      eslint-config-custom: workspace:*
       react: ~18.2.0
-      tsconfig: workspace:0.0.0
+      tsconfig: workspace:*
       typescript: ^4.9.3
     devDependencies:
       '@types/react': 18.0.25

@@ -12,14 +12,14 @@
     "next": "^13.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "workspace:0.0.0"
+    "ui": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
-    "eslint-config-custom": "workspace:0.0.0",
-    "tsconfig": "workspace:0.0.0",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
     "typescript": "^4.9.3"
   }
 }
