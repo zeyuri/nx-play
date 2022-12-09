@@ -19,8 +19,8 @@ build:
     - curl -f https://get.pnpm.io/v6.16.js | node - add --global pnpm@7
     - pnpm config set store-dir .pnpm-store
   script:
-    - pnpm install --frozen-lockfile
-    - pnpm run lint
+    - pnpm install --frozen-lockfile # install dependencies (the only reason we don[])
+    - pnm run lint
     - pnpm run build
   cache:
     key:
@@ -28,3 +28,5 @@ build:
         - pnpm-lock.yaml
     paths:
       - .pnpm-store
+      - ./node_modules # the .nx cache is inside here
+      - ./**/node_modules # we need to cache all node modules folders to avoid the need for reinstall
